@@ -14,7 +14,7 @@
         :key="item.title"
         :item="item"
         align="items-center"
-        class="dark:bg-gray-08 bg-gray-03"
+        class="md:p-10 dark:bg-gray-08 bg-gray-03"
       />
     </div>
   </BlockLayout>

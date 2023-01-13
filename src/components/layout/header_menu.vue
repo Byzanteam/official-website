@@ -1,5 +1,5 @@
 <template>
-  <div class="md:relative group py-1 cursor-pointer">
+  <div class="md:relative group py-1 cursor-default">
     <div class="flex items-center justify-end" @click="changeMenuState">
       <div class="md:block" :class="{ hidden: isShowMenu }">
         {{ $t('page.solutions') }}

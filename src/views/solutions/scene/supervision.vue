@@ -15,7 +15,7 @@
           :key="item.title"
           :item="item"
           align="items-center"
-          class="dark:bg-gray-08 bg-gray-03"
+          class="md:p-10 dark:bg-gray-08 bg-gray-03"
         />
       </div>
       <div class="grid gap-6 md:grid-cols-2 grid-cols-1 md:px-23">
@@ -24,7 +24,7 @@
           :key="item.title"
           :item="item"
           align="items-center"
-          class="dark:bg-gray-08 bg-gray-03"
+          class="md:p-10 dark:bg-gray-08 bg-gray-03"
         />
       </div>
     </div>
@@ -102,19 +102,19 @@ const pageText = {
   questions: {
     collect_hard: {
       icon: '/images/tips.svg',
-      title: '事项来源分散，收集难，维护难',
+      title: '事项来源分散，收集难',
       description:
         '督查督办的事项来自各个渠道，如市/区级下发事项、上级部门通过系统下发事项、领导交办事项等等，来源渠道多种多样，造成了督办人员收集难，维护难的问题。 300 ~ 500 户或 1000 人。',
     },
     computed_hard: {
       icon: '/images/tips.svg',
-      title: '事项汇报周期不同，不易计算',
+      title: '事项汇报周期不同，计算难',
       description:
         '督查督办的事项繁多，这就造成了每个事项的汇报周期各不相同，有按周汇报、按月汇报、按年汇报等等数种汇报周期，给督办人员的分配工作带来了极大的困难。',
     },
     cumbersome: {
       icon: '/images/tips.svg',
-      title: '多次汇报繁琐，监管、收集难度大',
+      title: '汇报繁琐，监管和收集难',
       description:
         '由于每个事项的汇报周期各不相同，这就对督办人员的收集汇报工作提出了较高的要求，他们需要在每件事项需要汇报时，向承办单位发送提醒，以免承办单位遗漏汇报周期，这也造成了督办人员的监管工作推进难度大。',
     },
@@ -195,7 +195,7 @@ const pageText = {
     private: {
       title: '私有化部署',
       description:
-        '系统可进行快速部署，在30分钟内即可完成基平台私有部署及搭建，满足不同客户的部署需求。',
+        '系统可进行快速部署，在 30 分钟内即可完成基平台私有部署及搭建，满足不同客户的部署需求。',
       icon: '/images/supervision/private.svg',
     },
     parallel: {

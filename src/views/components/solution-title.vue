@@ -1,10 +1,10 @@
 <template>
   <div class="relative w-full dark:mask-title-bg--dark mask-title-bg">
     <div
-      class="flex md:flex-row flex-col items-center md:justify-center gap-6 md:h-80 md:pt-0 pt-[52px] pr-0 content-container overflow-hidden"
+      class="flex md:flex-row flex-col items-center md:justify-between gap-6 md:h-80 md:pt-0 pt-[52px] pr-0 content-container overflow-hidden"
     >
       <div
-        class="md:flex-grow-[6] flex-shrink-0 flex flex-col gap-2 md:items-start items-center content-container z-10"
+        class="md:flex-grow-[6] flex-shrink-0 flex flex-col gap-2 md:items-start items-center z-10"
       >
         <div
           class="text-brand-blue bg-white rounded-full flex items-center justify-center px-4 py-1 w-max"
@@ -15,7 +15,9 @@
           {{ title }}
         </h2>
       </div>
-      <div class="md:flex-grow-[7] justify-start md:self-end self-start z-10">
+      <div
+        class="md:flex-grow-[7] md:self-end self-start flex justify-end z-10"
+      >
         <img
           class="md:h-[328px] h-[276px] w-auto object-cover object-left"
           :src="img"
